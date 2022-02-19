@@ -1,0 +1,13 @@
+PS C:\Users\pauls> docker container run -d --name docker-nginx -p 80:80 -d nginx
+Unable to find image 'nginx:latest' locally
+latest: Pulling from library/nginx
+5eb5b503b376: Pull complete
+1ae07ab881bd: Pull complete
+78091884b7be: Pull complete
+091c283c6a66: Pull complete
+55de5851019b: Pull complete
+b559bad762be: Pull complete
+Digest: sha256:2834dc507516af02784808c5f48b7cbe38b8ed5d0f4837f16e78d00deb7e7767
+Status: Downloaded newer image for nginx:latest
+72d4d663be002b2c627ee7fecac70492abca689f191b22cd7f37791b5b4f6abd
+PS C:\Users\pauls>
