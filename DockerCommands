@@ -1,3 +1,0 @@
-docker pull nginx
-docker container run -d --name docker-nginx -p 80:80 -d nginx
-docker run --detach --publish=80:80 --name-docker-nginx nginx
