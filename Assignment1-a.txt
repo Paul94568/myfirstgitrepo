@@ -1,0 +1,13 @@
+docker pull centos
+docker run -dit centos - This will provide the <containerid> as the output
+docker exec -it 01180e5d49d2c2ec3962eb40a34c4bbc7fa65bb0623e84f2e778b4e10bcbdf2a /bin/bash
+
+
+#!/bin/bash
+FILE=~/.hushlogin
+if test -f "$FILE"; then
+    echo "$FILE exists. All good."
+else	
+	touch $FILE
+	echo "$FILE created."
+fi
